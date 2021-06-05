@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\ThingStack OTAA Test"
+		},
+		{
+			"name": "LMIC-node",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
