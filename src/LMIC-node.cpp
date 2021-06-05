@@ -791,7 +791,7 @@ void processDownlink(ostime_t txCompleteTimestamp, uint8_t fPort, uint8_t* data,
     const uint8_t cmdPort = 100;
     const uint8_t resetCmd= 0xC0;
 
-    if (fPort == cmdPort && dataLength == 1 && data[0] == resetCmd)
+    if (fPort == cmdPort && dataLength == 1 )   //&& data[0] == resetCmd
     {
         #ifdef USE_SERIAL
             printSpaces(serial, MESSAGE_INDENT);
