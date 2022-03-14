@@ -57,6 +57,9 @@ void displayTxSymbol(bool visible);
 #define TIMESTAMP_WIDTH 12 // Number of columns to display eventtime (zero-padded)
 #define MESSAGE_INDENT TIMESTAMP_WIDTH + 3
 
+//Neue Lib verwenden
+//#define _LMIC_CONFIG_PRECONDITIONS_H_
+
 // Determine which LMIC library is used
 #ifdef _LMIC_CONFIG_PRECONDITIONS_H_   
     #define MCCI_LMIC
